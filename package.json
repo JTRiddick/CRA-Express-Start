@@ -1,0 +1,22 @@
+{
+  "name": "cra-express-start",
+  "version": "0.0.1",
+  "description": "CRA plus express starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JTRiddick/CRA-Express-Start.git"
+  },
+  "author": "JTR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JTRiddick/CRA-Express-Start/issues"
+  },
+  "homepage": "https://github.com/JTRiddick/CRA-Express-Start#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
