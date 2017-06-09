@@ -2,9 +2,14 @@
   "name": "cra-express-start",
   "version": "0.0.1",
   "description": "CRA plus express starter",
+  "engines": {
+  "node": "6.9.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
     "type": "git",
